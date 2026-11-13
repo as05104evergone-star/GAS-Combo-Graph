@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "GAS 连招图",
+  "Description": "在节点面板配置 Montage、接招窗口与分支，通过 GASCombatBridge 结算伤害。",
+  "Category": "Gameplay",
+  "EnabledByDefault": false,
+  "CanContainContent": true,
+  "Modules": [
+    { "Name": "GASComboGraph", "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "GASComboGraphEditor", "Type": "Editor", "LoadingPhase": "Default" }
+  ],
+  "Plugins": [
+    { "Name": "GASCombatBridge", "Enabled": true },
+    { "Name": "EnhancedInput", "Enabled": true }
+  ]
+}
